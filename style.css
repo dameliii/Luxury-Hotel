@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  margin:0 209px 38px 213px;
+  /* background-color: aqua; */
+  width: 70%;
+  height: 900px;
+  position: relative;
+}
+.logo{
+    width: 200px;
+    height: 90px;
+    background: #E0B973;
+    border-radius:0  0 25px  25px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 23px 15px 23px 15px;
+}
+.text-1{
+   font-family: 'Playfair Display', serif;
+  letter-spacing: 6px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.text-2{
+  letter-spacing: 8px;
+  font-family: 'Playfair Display', serif;
+  font-size:10px;
+}
+
+main{
+  position: absolute;
+}
+img{
+  width: 100%;
+  filter: brightness(70%);
+  /* Доделать затимнение */
+}
+
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap:20px;
+  width: 50%;
+}
+li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+
+  color: white;
+  font-size: large;
+  letter-spacing: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+
+  margin-top: 20%;
+  width: 40%;
+  height: 40%;
+
+  color:white;
+  font-weight: 10;
+  font-size: 30px;
+  letter-spacing: 6px
+}
+
+/* .first-p{
+  font-weight: 10;
+  font-size: 30px;
+  letter-spacing: 6px;
+} */
+.second-p{
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+.therd-p{
+  font-size: 35px;
+  letter-spacing:13px;
+}
+.bacic-text{
+  font-size: 15px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+
+.button-1{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} /* 1 это что бы разместить кнопку */
+.btn-1{
+  width: 200px;
+  background-color:#E0B973;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color:white;
+  font-size: 15px;
+  font-weight: bolder;
+  border:none;
+
+  gap:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* 2 а это что бы разместить ровно текст и главное иконку */
+}
+.icon-btn-1 {
+  height: 1.5em;
+  width: auto;
+  padding-right: 10px;
+}
+
+
+.button-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+/*.btn-2{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border:none;
+  color:white;
+  background:#E0B973;
+  
+} */
+
+.scroll{
+  color:white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight:800;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+.main-section{
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-main{
+  height: 100px;
+  margin-bottom: 30px; 
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-1,
+.section-2{
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.text-sec-1,
+.text-sec-2{
+  width: 35%;
+  margin: 0 5% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-left: 2px solid #000;
+}
+.text-sec-1 h3,
+.text-sec-2 h3{
+  font-size: 30px;
+
+  padding-left: 5%;
+}
+.text-sec-1 p,
+.text-sec-2 p{
+  margin:40px 40px 30px 0 ;
+  line-height: 1.5;
+  font-size: 20px;
+
+  padding-left: 5%;
+}
+.text-sec-1 button,
+.text-sec-2 button{
+  width: 150px;
+  height: 40px;
+  border:none;
+  background: #E0B973;
+  color:white;
+  font-weight: 700;
+  border-radius: 10px;
+
+  margin-left: 5%;
+}
+.img-1-main,
+.img-2-main{
+  width: 600px;
+}
+
+
+
+.section-3 h3{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+}
+.max-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+}
+ .mine-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  font-weight: 100;
+  padding-top: 15px;
+}
+
+
+ .buttons-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+.btn-1-footer-booton,
+.btn-2-footer-booton{
+  margin: 20px 10px;
+  background-color: #E0B973;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight:900;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
+
+ footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14274A;
+  height: 30vh;
+  width: 100%;
+  color:white;
+  padding: 3% 10%;
+  margin-top: 5%;
+
+  position: relative; /* для треугольнака */
+ }
+
+ .info{
+  flex-direction: column;
+ }
+ .info h2{
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+ }
+
+ .menu-footer a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;   /* делает цвет таким же, как у родителя */
+ }
+ .social-media a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;  
+ }
+
+ /* Треугольник с верху */
+ footer::before{
+  content:'';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 0;
+  height: 0; */
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 45px solid #14274A;
+ }
+
+ /* ————————————————————————————————meta tegs————————————————————————————— */
+
+ @media (max-width: 1024px) {
+  header {
+    margin: 0 50px;
+    height: auto;
+  }
+
+  .text {
+    margin-top: 15%;
+    width: 80%;
+  }
+
+  .second-p {
+    font-size: 60px;
+  }
+
+  .therd-p {
+    font-size: 25px;
+  }
+
+  .section-1,
+  .section-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-sec-1,
+  .text-sec-2 {
+    width: 90%;
+    margin: 20px 0;
+    border-left: none;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+  }
+
+  .img-1-main,
+  .img-2-main {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  li {
+    padding: 10px 0;
+  }
+
+  .btn-1 {
+    width: 90%;
+    font-size: 14px;
+    flex-direction: row;
+  }
+
+  .second-p {
+    font-size: 40px;
+  }
+
+  .therd-p {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+
+  .text-main {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    text-align: center;
+  }
+
+  footer::before {
+    display: none;
+  }
+}
